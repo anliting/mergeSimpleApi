@@ -1,1 +1,2 @@
-./mergeSimpleApi/dist/mergeSimpleApi /srv/pypi/web/simple
+rm -fr simple
+./mergeSimpleApi/dist/mergeSimpleApi /srv/pypi/web/simple /srv/pypi/web/simple simple

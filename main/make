@@ -1,3 +1,5 @@
 g++\
     -o mergeSimpleApi/dist/mergeSimpleApi\
-    -std=c++17 -static mergeSimpleApi/main/main.cpp
+    -std=c++17\
+    -w\
+    -static mergeSimpleApi/main/main.cpp
