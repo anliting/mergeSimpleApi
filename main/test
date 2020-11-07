@@ -1,1 +1,1 @@
-./createSimpleApi/dist/createSimpleApi /srv/pypi/web
+./mergeSimpleApi/dist/mergeSimpleApi /srv/pypi/web/simple
