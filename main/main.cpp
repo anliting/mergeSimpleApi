@@ -1,8 +1,10 @@
 #include<filesystem>
 #include<iostream>
+#include<string>
 int main(int argc,char**argv){
-    std::cout<<argv[1]<<std::endl;
-    for(auto&entry:std::filesystem::directory_iterator(argv[1]))
-        std::cout<<entry.path()<<std::endl;
-    //std::filesystem
+    std::cout<<std::string(argv[1])+"/packages"<<std::endl;
+    for(auto&e:std::filesystem::directory_iterator(
+        std::string(argv[1])+"/packages"
+    ))
+        std::cout<<e.path()<<std::endl;
 }

@@ -1,3 +1,3 @@
 g++\
-    -o create-simple-api/dist/createSimpleApi\
-    -std=c++17 -static create-simple-api/main/main.cpp
+    -o createSimpleApi/dist/createSimpleApi\
+    -std=c++17 -static createSimpleApi/main/main.cpp
