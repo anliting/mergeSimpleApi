@@ -51,7 +51,7 @@ void toMap(auto&index,auto&map){
             anchor.insert(anchor.end(),p.anchor.begin(),p.anchor.end());
             std::sort(anchor.begin(),anchor.end());
             anchor.resize(
-                anchor.end()-std::unique(anchor.begin(),anchor.end())
+                std::unique(anchor.begin(),anchor.end())-anchor.begin()
             );
         }
     }
