@@ -1,0 +1,4 @@
+The half-baked program for merging two PyPI Simple API.
+
+$ mergeSimpleApi simpleA simpleB simpleC
+
